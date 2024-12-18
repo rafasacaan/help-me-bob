@@ -1,7 +1,8 @@
 [project]
 name = "help-me-bob"
 version = "0.1.0"
-description = "Add your description here"
+description = "Get random Bob Dylan lyrics whenever you need them"
+authors = [{name = "rafa sacaan", email = "rafasacaan@gmail.com"}]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -10,6 +11,11 @@ dependencies = [
     "pydantic>=2.10.3",
     "pytest-cov>=6.0.0",
     "pytest>=8.3.4",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
 ]
 
 [project.scripts]
@@ -28,3 +34,6 @@ include = [
     "src/help_me_bob/**/*.py",
     "src/help_me_bob/data/*.csv",
 ]
+
+[project.urls]
+Homepage = "https://github.com/rafasacaan/help-me-bob"
