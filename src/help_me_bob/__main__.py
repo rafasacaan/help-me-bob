@@ -15,8 +15,9 @@ def main():
         verse_obj = get_random_lyrics(df, year=args.year)
         
         # Print with formatting
-        print("Bob said: ")
+        print(" ")
         print(verse_obj.verse)
+        print("- Bob Dylan")
         print(" ")
         return 0
     except FileNotFoundError:
