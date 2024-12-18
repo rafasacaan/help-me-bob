@@ -16,7 +16,7 @@ def main():
         
         # Print with formatting
         print(" ")
-        print(verse_obj.verse)
+        print(verse_obj)
         print("- Bob Dylan")
         print(" ")
         return 0

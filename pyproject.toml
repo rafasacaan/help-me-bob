@@ -1,6 +1,6 @@
 [project]
 name = "help-me-bob"
-version = "0.1.1"
+version = "0.1.2"
 description = "Get random Bob Dylan lyrics whenever you need them"
 authors = [{name = "rafa sacaan", email = "rafasacaan@gmail.com"}]
 readme = "README.md"
@@ -12,11 +12,9 @@ classifiers = [
 ]
 dependencies = [
     "pandas>=2.2.3",
-    "pydantic>=2.10.4",
     "pytest>=8.3.4",
     "pytest-cov>=6.0.0",
 ]
-
 [project.scripts]
 help-me-bob = "help_me_bob.__main__:main"
 

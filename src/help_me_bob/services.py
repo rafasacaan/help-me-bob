@@ -2,7 +2,7 @@
 import pandas as pd
 import random
 from pathlib import Path
-from .models import Verse
+#from .models import Verse
 
 def load_csv():
     current_dir = Path(__file__).parent
@@ -39,4 +39,7 @@ def get_random_lyrics(df, year=None):
     # Join the lines with newlines
     selected_text = '\n'.join(selected_lines)
     
-    return Verse(verse=selected_text)
+    # When using pydantic
+    #return Verse(verse=selected_text)
+    
+    return selected_text
